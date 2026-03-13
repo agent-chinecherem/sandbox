@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "title": "Bioluminescent Organisms Database",
+    "description": "A comprehensive collection of bioluminescent organisms, their biochemical mechanisms, and ecological contexts",
+    "version": "1.0",
+    "created": "2024-12-19",
+    "sources": [
+      "PMC Articles on Bioluminescence",
+      "Smithsonian Ocean Portal",
+      "Britannica Encyclopedia",
+      "Scientific Literature Review"
+    ]
+  },
+  "organisms": [
+    {
+      "id": "firefly_photinus",
+      "common_name": "Common Firefly",
+      "scientific_name": "Photinus pyralis",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda", 
+        "class": "Insecta",
+        "order": "Coleoptera",
+        "family": "Lampyridae"
+      },
+      "environment": "Terrestrial - meadows, gardens, woodlands",
+      "bioluminescence": {
+        "luciferin_type": "D-Luciferin",
+        "luciferase": "Firefly Luciferase",
+        "cofactors": ["ATP", "Mg2+", "O2"],
+        "reaction": "D-Luciferin + ATP + Mg2+ + O2 → Oxyluciferin + Light + AMP + PPi + CO2",
+        "wavelength_nm": 560,
+        "color": "Yellow-Green",
+        "quantum_efficiency": "High (~0.88)",
+        "location": "Lantern organ in abdomen"
+      },
+      "ecological_function": "Mate attraction and species recognition",
+      "interesting_facts": [
+        "Flash patterns are species-specific",
+        "Source of the most efficient luciferase system",
+        "Can produce cold light with 96% efficiency"
+      ]
+    },
+    {
+      "id": "crystal_jelly",
+      "common_name": "Crystal Jelly",
+      "scientific_name": "Aequorea victoria",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Cnidaria",
+        "class": "Hydrozoa",
+        "order": "Leptomedusae",
+        "family": "Aequoreidae"
+      },
+      "environment": "Marine - Pacific Northwest waters",
+      "bioluminescence": {
+        "luciferin_type": "Coelenterazine",
+        "luciferase": "Aequorin (photoprotein)",
+        "cofactors": ["Ca2+", "O2"],
+        "reaction": "Coelenterazine + Ca2+ + O2 → Coelenteramide + Light + CO2",
+        "wavelength_nm": 469,
+        "color": "Blue",
+        "quantum_efficiency": "Moderate",
+        "location": "Around bell margin"
+      },
+      "ecological_function": "Defense mechanism - startle predators",
+      "interesting_facts": [
+        "Source of Green Fluorescent Protein (GFP)",
+        "Nobel Prize awarded for GFP research in 2008",
+        "Light is blue but GFP converts it to green"
+      ]
+    },
+    {
+      "id": "anglerfish_deep",
+      "common_name": "Deep Sea Anglerfish",
+      "scientific_name": "Melanocetus johnsonii",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Actinopterygii",
+        "order": "Lophiiformes",
+        "family": "Melanocetidae"
+      },
+      "environment": "Deep sea - bathypelagic zone (1000-4000m)",
+      "bioluminescence": {
+        "luciferin_type": "Bacterial Luciferin",
+        "luciferase": "Bacterial Luciferase",
+        "cofactors": ["FMNH2", "Long-chain aldehyde", "O2"],
+        "reaction": "FMNH2 + RCHO + O2 → FMN + RCOOH + H2O + Light",
+        "wavelength_nm": 490,
+        "color": "Blue-Green",
+        "quantum_efficiency": "Low",
+        "location": "Esca (lure) and photophores"
+      },
+      "ecological_function": "Prey attraction and possibly mate recognition",
+      "interesting_facts": [
+        "Uses symbiotic bacteria (Vibrio fischeri) for light",
+        "Can control bacterial light through blood flow",
+        "Different species have unique lure shapes"
+      ]
+    },
+    {
+      "id": "dinoflagellate",
+      "common_name": "Sea Sparkle",
+      "scientific_name": "Noctiluca scintillans",
+      "taxonomy": {
+        "kingdom": "Protista",
+        "phylum": "Dinoflagellata",
+        "class": "Noctiluciphyceae",
+        "order": "Noctilucales",
+        "family": "Noctilucaceae"
+      },
+      "environment": "Marine - surface waters, worldwide",
+      "bioluminescence": {
+        "luciferin_type": "Dinoflagellate Luciferin",
+        "luciferase": "Dinoflagellate Luciferase",
+        "cofactors": ["O2", "pH dependent"],
+        "reaction": "Luciferin + O2 → Oxyluciferin + Light (pH ~6-8)",
+        "wavelength_nm": 485,
+        "color": "Blue",
+        "quantum_efficiency": "Variable",
+        "location": "Scintillons (specialized organelles)"
+      },
+      "ecological_function": "Defense against small grazers",
+      "interesting_facts": [
+        "Creates 'milky seas' and bioluminescent waves",
+        "Light triggered by mechanical disturbance",
+        "Can form massive blooms visible from space"
+      ]
+    },
+    {
+      "id": "railroad_worm",
+      "common_name": "Railroad Worm",
+      "scientific_name": "Phrixothrix hirtus",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "class": "Insecta",
+        "order": "Coleoptera",
+        "family": "Phengodidae"
+      },
+      "environment": "Terrestrial - tropical forests of South America",
+      "bioluminescence": {
+        "luciferin_type": "D-Luciferin",
+        "luciferase": "Modified Firefly Luciferase",
+        "cofactors": ["ATP", "Mg2+", "O2"],
+        "reaction": "D-Luciferin + ATP + Mg2+ + O2 → Oxyluciferin + Red Light + AMP",
+        "wavelength_nm": 630,
+        "color": "Red",
+        "quantum_efficiency": "Moderate",
+        "location": "Head (red) and body segments (green)"
+      },
+      "ecological_function": "Warning coloration and mate attraction",
+      "interesting_facts": [
+        "One of the few organisms producing red bioluminescence",
+        "Has both red and green lights on same individual",
+        "Larvae are predatory glowworms"
+      ]
+    },
+    {
+      "id": "foxfire_mushroom",
+      "common_name": "Foxfire Mushroom",
+      "scientific_name": "Armillaria mellea",
+      "taxonomy": {
+        "kingdom": "Fungi",
+        "phylum": "Basidiomycota",
+        "class": "Agaricomycetes",
+        "order": "Agaricales",
+        "family": "Physalacriaceae"
+      },
+      "environment": "Terrestrial - decaying wood in temperate forests",
+      "bioluminescence": {
+        "luciferin_type": "Fungal Luciferin (3-hydroxyhispidin)",
+        "luciferase": "Fungal Luciferase",
+        "cofactors": ["NADPH", "O2"],
+        "reaction": "3-hydroxyhispidin + NADPH + O2 → Products + Green Light",
+        "wavelength_nm": 520,
+        "color": "Green",
+        "quantum_efficiency": "Low",
+        "location": "Mycelium and fruiting bodies"
+      },
+      "ecological_function": "Spore dispersal by attracting insects",
+      "interesting_facts": [
+        "Ghost lights in forests historically attributed to these fungi",
+        "Bioluminescence is circadian - brighter at night",
+        "Over 80 species of bioluminescent fungi known"
+      ]
+    },
+    {
+      "id": "vampire_squid",
+      "common_name": "Vampire Squid",
+      "scientific_name": "Vampyroteuthis infernalis",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Mollusca",
+        "class": "Cephalopoda",
+        "order": "Vampyromorphida",
+        "family": "Vampyroteuthidae"
+      },
+      "environment": "Deep sea - oxygen minimum zones (600-900m)",
+      "bioluminescence": {
+        "luciferin_type": "Coelenterazine",
+        "luciferase": "Photoprotein complex",
+        "cofactors": ["Ca2+", "O2"],
+        "reaction": "Coelenterazine + Ca2+ → Coelenteramide + Blue Light",
+        "wavelength_nm": 470,
+        "color": "Blue",
+        "quantum_efficiency": "High",
+        "location": "Photophores on arms and body"
+      },
+      "ecological_function": "Defense - creates 'burglar alarm' light display",
+      "interesting_facts": [
+        "Can eject bioluminescent mucus cloud",
+        "Has largest photophores relative to body size",
+        "Not actually a squid - unique cephalopod lineage"
+      ]
+    },
+    {
+      "id": "atolla_jellyfish",
+      "common_name": "Atolla Jellyfish",
+      "scientific_name": "Atolla wyvillei",
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Cnidaria",
+        "class": "Scyphozoa",
+        "order": "Coronatae",
+        "family": "Atollidae"
+      },
+      "environment": "Deep sea - mesopelagic to bathypelagic zones",
+      "bioluminescence": {
+        "luciferin_type": "Coelenterazine",
+        "luciferase": "Photoprotein",
+        "cofactors": ["Ca2+"],
+        "reaction": "Coelenterazine + Ca2+ → Coelenteramide + Blue Light",
+        "wavelength_nm": 475,
+        "color": "Blue",
+        "quantum_efficiency": "High",
+        "location": "Bell margin in circular pattern"
+      },
+      "ecological_function": "Defense - creates 'burglar alarm' to attract predators of predators",
+      "interesting_facts": [
+        "Creates spinning wheel of light when threatened",
+        "Light pattern acts as a distress signal",
+        "Found at depths up to 4000 meters"
+      ]
+    }
+  ],
+  "biochemical_mechanisms": {
+    "general_reaction": "Luciferin + Luciferase + Cofactors + O2 → Oxyluciferin + Light + Byproducts",
+    "luciferin_types": {
+      "d_luciferin": {
+        "chemical_formula": "C11H8N2O3S2",
+        "found_in": ["Fireflies", "Click beetles", "Railroad worms"],
+        "structure": "Benzothiazole derivative"
+      },
+      "coelenterazine": {
+        "chemical_formula": "C26H27N3O4",
+        "found_in": ["Cnidarians", "Cephalopods", "Some fish"],
+        "structure": "Imidazopyrazinone derivative"
+      },
+      "bacterial_luciferin": {
+        "chemical_formula": "Variable (FMNH2 + aldehyde)",
+        "found_in": ["Marine bacteria", "Symbiotic relationships"],
+        "structure": "Flavin mononucleotide + long-chain aldehyde"
+      }
+    }
+  },
+  "evolutionary_insights": {
+    "convergent_evolution": "Bioluminescence has evolved independently at least 27 times",
+    "marine_dominance": "About 80% of deep sea organisms produce light",
+    "functions": [
+      "Predator avoidance",
+      "Prey attraction", 
+      "Communication",
+      "Mate recognition",
+      "Camouflage (counter-illumination)"
+    ]
+  }
+}
